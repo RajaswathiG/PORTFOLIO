@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- EMAIL JS -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "xSW_ARwMK8B0p7BUP",
+      });
+   })();
+</script>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- MAIN.CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio | @Rajaswathi</title>
+</head>
+<body>
+    <!-- HEADER DESIGN -->
+     <header class="header">
+        <a href="#" class="logo">PORTFOLIO</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Education</a>
+            <a href="#services">Projects</a>
+            <a href="#portfolio">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+     </header>
+
+      <!-- HOME SECTION DESIGN -->
+       <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Rajaswathi G</h1>
+            <h3>And I'm passionate about <span class="multiple-text">Software Development</span></h3>
+            <p style="font-size: 25px; text-align: justify;">As a dedicated student pursuing a bachelor's degree in electronics and communication engineering at Sri Krishna College of Engineering and Technology, I have a strong passion for software development despite my background in ECE. My professional philosophy is to use technology to empower communities and drive sustainable development through the active pursuit of opportunities in software development. Let's collaborate on creating solutions that truly make a lasting difference.</p>
+            <div class="social-Media">
+            <a href="https://www.linkedin.com/in/rajaswathi-g-544b92225/ " target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/RajaswathiG" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:rajaswathig@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://leetcode.com/u/Rajaswathi/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-code"></i></i></a>
+        </div>
+        <a download="" href="resume/RAJASWATHI_RESUME.pdf" class="btn" target="_blank">Download CV</a>
+    </div>
+    <div class="home-img">
+        <img src="img/profiledp.jpg">
+    </div>
+       </section>
+
+       <!-- EDUCATION SECTION DESIGN -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/about.jpg" alt="">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">Educational <span>JOURNEY</span></h2>
+                <br>
+                <ul class="education-list">
+                <li><h3>B.E. (ECE) 2021-2025</h3>
+                <p>Sri Krishna College of Engineering and Technology</p>
+                <p>CGPA: 8.22 (Till 5th Sem)</p></li>
+
+                
+                <li><h3>HSC 2020-2021</h3>
+            <p>Brindhavan Higher Secondary School</p>
+            <p>Percentage: 94.48%</p></li>
+
+            <li><h3>SSLC 2018-2019</h3>
+            <p>St. Isabel’s Girls Higher Secondary School</p>
+            <p>Percentage: 95%</p></li>
+        </ul>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION DESIGN -->
+         <section class="services" id="services">
+            <h2 class="heading">My <span>PROJECTS</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <i class="fa-solid fa-wheelchair"></i>
+                    <br>
+                    <h3>Hand Gesture Controlled System</h3>
+                    <p>Hand Gesture Controlled Wheelchair is a technology-driven solution designed to assist paralyzed individuals by allowing them to navigate wheelchairs using intuitive hand gestures, promoting enhanced mobility and independence.</p>
+                    <a href="hand-gesture.html" class="btn" target="_blank">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-tower-broadcast"></i>
+                    <br>
+                    <h3>Anti - Hostile Drone System</h3><br>
+                    <p>Developed a robust Anti-Hostile Drone System with enhanced long-range communication for improved connectivity and effectiveness in defense systems. Creating a remote-controlled surveillance drone featuring advanced image processing for detailed video capture.</p>
+                    <a href="anti-drone.html" class="btn" target="_blank">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-house-laptop"></i>
+                    <br>
+                    <h3>E-Commerce Website for Fruits and Vegetables</h3>
+                    <p>Developed an E-Commerce platform for fruits and vegetables with React - Frontend, MySQL - Database, and Spring Boot - Backend. Implemented CRUD operations for product, order, and customer management, ensuring a seamless user experience.</p>
+                    <a href="online-store.html" class="btn" target="_blank">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-clone"></i>
+                    <br>
+                    <h3>Wordle Clone</h3>
+                    <p>Developed a project using HTML, CSS, and JavaScript to craft a Wordle clone. This project replicates the iconic game's interface and gameplay mechanics, challenging players to guess a hidden word within a limited number of attempts.</p>
+                    <a href="wordclone.html" class="btn" target="_blank">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-calculator"></i>
+                    <br>
+                    <h3>Calculator</h3>
+                    <p>Developed a project using HTML, CSS, and JavaScript to create a fully functional calculator application. This project includes a user-friendly interface that allows users to perform basic arithmetic operations effortlessly.</p>
+                    <a href="calculator.html" class="btn" target="_blank">Read More</a>
+                </div>
+                <div class="services-box">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <br>
+                    <h3>To-do List</h3>
+                    <p>Developed a project using HTML, CSS, and JavaScript to build an interactive To-Do list application. This project boasts a clean and intuitive user interface, allowing users to add, edit, and delete tasks with ease, enhancing productivity and organization.</p>
+                    <a href="todo.html" class="btn" target="_blank">Read More</a>
+                </div>
+            </div>
+         </section>
+<!-- SKILL SECTION DESIGN -->
+         
+<!-- <section class="services" id="services"> -->
+    <section class="portfolio" id="portfolio">
+    <h2 class="heading">SKILL <span>SET</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class="fa-brands fa-java"></i>
+            <br>
+            <h3>Programming Languages</h3>
+            <br>
+            <ul class="skills-list">
+                    <ul>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Python (Basics)</li>
+                    </ul>
+            </ul>
+            
+        </div>
+        <div class="services-box">
+            <i class="fa-solid fa-laptop"></i>
+            <br>
+            <h3>Web Development</h3><br>
+            <ul class="skills-list">
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Springboot</li>
+                    <li>Mysql (Database)</li>
+                </ul>
+        </ul>
+        </div>
+        <div class="services-box">
+            <i class="fa-solid fa-people-group"></i>
+            <br>
+            <h3>Soft Skills</h3>
+            <ul class="skills-list">
+                <ul>
+                    <li>Team Work</li>
+                    <li>Adaptability</li>
+                    <li>Problem-Solving</li>
+                    <li>Time Management</li>
+                </ul>
+        </ul>
+        </div>
+        
+    </div>
+ </section>
+
+<!-- CONTACT SECTION DESIGN -->
+
+ <section class="contact" id="contact">
+    <h2 class="heading">Contact<span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+            
+        </div>
+
+        <div class="input-box">
+            <input type="email" id="email" name="email" placeholder="Email Address" required>       
+            <input type="text" id="subject" name="subject" placeholder="Email Subject" required>
+        </div>
+        <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send Message" class="btn" onclick="sendMail()">
+    </form>
+ </section>
+ <!-- FOOTER SECTION DESIGN -->
+  <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @Rajaswathig | All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail: rajaswathig@gmail.com | Contact: +91 9342700884</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
+
+  <!-- SCROLL REVEAL JS -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- TYPED JS -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+   <!-- MAIN JS -->
+    <script src="main.js"></script>
+    <!-- SCRIPT JS -->
+    
+</body>
+</html>
